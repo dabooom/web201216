@@ -1,0 +1,49 @@
+/* reset */
+body{background-color: #ffffff;}
+body, ul, li, div, section, dl, dt, dd, ol, p, h1, h2, h3, h4, h5, h6, header, footer{
+  margin: 0; padding: 0;
+  font-family: '맑은 고딕';
+  font-size: 16px;
+  color: #666666;
+  line-height: 2;
+  letter-spacing: -1px;
+}
+
+ul, ul, dl, dt, dd, ol{
+  list-style: none;
+}
+
+a{ color: #666666; text-decoration: none;}
+a:hover{ color:#009688; }
+img{ border: none;}
+/* sub #6a6a6a */
+
+/*inspector 검수용 스타일은 스타일을 아주 구제적 !important 까지 넣어야함!*/
+.red{border-bottom: blue 1px solid !important;}
+
+/* common */
+.container{ width: 1200px; margin: 0 auto;}
+.clear:after{content: ""; display:block; clear:both; }
+.rel{position: relative}
+.abs{position: absolute;}
+.fix{position: fixed;}
+.fl{float: left;}
+.fr{float: right;}
+.disB{display: block;}
+.disN{display: none;}
+.disI{display: inline-block;}
+
+/* 레이아웃 */
+
+header#hd{/*height: 100px;*/ padding:15px 0; }
+/* 잊지마세요! 프로! 레이아웃 잡기 위해! */
+#hd a, #hd img{display: block;}
+#gnb > li .d1{font-size: 20px; line-height: 46px; font-weight: bold;
+              margin-left: 2em;} /*padding의 기준은 나,여백에 손을 올려도 효과가 있음. margin의 기준은 부모*/
+#gnb .d2{background-color: black; width:100%; top:calc(100% + 15px); left:30px; padding: 10px 10px;}
+#gnb li:nth-child(4) .d2{width: 80px}
+#gnb .d2 li a{font-size: 0.9em; line-height: 1.6; color:white; }
+
+section#main{}
+
+footer#fd{/*height: 100px;*/}
