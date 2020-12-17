@@ -48,7 +48,10 @@ header#hd{/*height: 100px;*/ padding: 15px 0}
 
 #gnb li:nth-child(4) .d2{width: 80px}
 
+/* 마우스가 올라간 대메뉴 li 속 소메뉴 .d2의 높이가 120 */
 #gnb>li:hover .d2{height:120px;}
+/* 마우스가 올라간 대메뉴 1i 속 대메뉴 a의 색상 처리 */
+#gnb>li:hover .d1{color:#009688;}
 
 section#main{}
 
